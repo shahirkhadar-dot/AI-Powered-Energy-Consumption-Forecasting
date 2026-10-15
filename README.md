@@ -60,24 +60,4 @@ python main.py
 - `images/actual_vs_predicted.png`
 - `images/hourly_consumption.png`
 
-Metrics vary slightly by installed library version. MAE and RMSE are errors in kWh; lower is generally better. R² compares model fit against a baseline and can be negative if predictions are poor.
-
-## Dataset
-The program generates 180 days of hourly simulated consumption with daily peaks, weekday/weekend variation, a seasonal component, noise, and a few missing values for the cleaning step.
-
-## GitHub publishing
-Create a repository named `ai-energy-consumption-forecasting`, then run:
-```bash
-git init
-git add .
-git commit -m "Add energy forecasting baseline project"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/ai-energy-consumption-forecasting.git
-git push -u origin main
-```
-Replace `YOUR-USERNAME` with your GitHub username. Never upload private meter/customer data or API keys.
-
-## Limitations and future improvements
-- Uses simulated rather than real meter data.
-- The demonstration model is a baseline; production forecasting needs domain review, real data, seasonality checks, and monitoring.
-- Possible extensions: public energy datasets, weather/calendar features, forecast horizons, Flask API, and a dashboard.
+<img width="720" height="1570" alt="WhatsApp Image 2026-10-15 at 19 41 19" src="https://github.com/user-attachments/assets/4ddf28ba-c1c4-469b-99bd-a7de44def9c0" />
